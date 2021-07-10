@@ -31,7 +31,7 @@ public class HomeWork3 {
                 "pumpkin", "potato"};
 
         String wordAI = words[random.nextInt(words.length)];
-        System.out.println("Test: " + wordAI);
+       // System.out.println("Test: " + wordAI);
         String guess;
         char[] symb = new char[15];
         Arrays.fill(symb, '#');
@@ -48,7 +48,7 @@ public class HomeWork3 {
                     System.out.print((wordAI.equals(guess)) ? "" : "#");
             System.out.println();
         } while (!wordAI.equals(guess));
-        System.out.println("You won!!!");
+        System.out.println("You win!!!");
     }
 }
 
