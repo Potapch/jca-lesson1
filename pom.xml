@@ -7,6 +7,14 @@
     <groupId>ru.geekbrains.courses.javacore.mma.lesson1</groupId>
     <artifactId>jca-lesson1</artifactId>
     <version>1.0.1</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
